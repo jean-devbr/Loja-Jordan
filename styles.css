@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+#frete {
+    margin-top: 1vh;
+}
+.fonte-principal {
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #121214;
+}
+.fotoMaior {
+    width: auto;
+    height: auto;
+}
+
+.jordan {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.fotoMaior img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+.imagem-texto {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white; 
+
+}
+.frase-cima {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 12px;
+}
+.frase-jordan {
+    margin-top: 10%;
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Archivo", sans-serif;
+    color: #121214;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+#elementoPai {
+    display: grid;
+    grid-template-rows: 0.615fr 1fr;
+    grid-template-areas: 
+        "cabecario"
+        "principal";
+   
+}
+header {grid-area: cabecario;}
+main {grid-area: principal;}
+
+header {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+   
+}
+
+#frete {
+    padding: 10px;
+    text-align: center;
+}
+#fotoMaiorJordan {
+    width: 100%;
+   
+    position: relative;
+    
+}
+#mensagemFoto {
+    position: relative;
+    bottom: 220px;
+    left: 250px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+    color: #FFFFFF;
+}
+#marca {
+    
+    display: flex;
+    gap: 8px;
+    
+}
+#fraseMelhor {
+    font-size: 32px;
+}
+#fraseAnuncio {
+    
+    width: 557px;
+    height: 68px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+        /*Main*/
+#conteudo {
+    display: grid;
+    grid-template-rows: 90px auto;
+    padding: 80px 0;
+    gap: 72px;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#conteudo > div {
+    border: 1px solid red;
+    
+    
+}
+#fraseLoja {
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 24px;    
+    width: 593px;
+    height: 127px;
+}
+
+#MelhoresLugar {
+    font-weight: 600;
+    font-style: bold;
+    font-size: 32px;
+}
+
+#fraseMarcaJordan {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0;
+    width: 593px;
+    height: 68px;
+}
+
+#grid  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "primeiro segundo terceiro"
+    "quarto quinto sexto";
+
+}
+
+#grid > div {
+    border: 1px solid red; 
+    
+}
+    
+#tenis1 {grid-area: primeiro;}
+#tenis2 {grid-area: segundo;}
+#tenis3 {grid-area: terceiro;}
+#tenis4 {grid-area: quarto;}
+#tenis5 {grid-area: quinto;}
+#tenis6 {grid-area: sexto;}
+

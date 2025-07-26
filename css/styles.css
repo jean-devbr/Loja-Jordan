@@ -17,7 +17,7 @@ body {
 }
 #elementoPai {
     display: grid;
-    grid-template-rows: 0.615fr 1fr;
+    grid-template-rows: auto auto;
     grid-template-areas: 
         "cabecario"
         "principal";
@@ -27,7 +27,7 @@ header {grid-area: cabecario;}
 main {grid-area: principal;}
 
 header {
-   
+    
     position: relative;
     overflow: hidden;
     height: 400px;
@@ -72,26 +72,15 @@ header {
 }
         /*Main*/
 
-main {
+#conteudo {
     display: flex;
     justify-content: center;
     display: grid;
-    grid-template-rows: 90px auto;
+    grid-template-rows: auto auto;
     row-gap: 72px;
     
-    
-}
-#conteudo {
-    
 }
 
-
-#conteudo > div {
-    
-    padding: 30px;
-    
-    
-}
 #fraseLoja {
    
     display: flex;
@@ -99,7 +88,7 @@ main {
     align-items: center;
     gap: 24px;    
     width: 100%;
-    height: 100%px;
+    
 }
 
 #MelhoresLugar {
@@ -122,18 +111,17 @@ main {
 #grid  {
     display: grid;
     grid-template-columns: 384px 384px 384px;
-    grid-template-rows: 326px 326px 326px;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
     "primeiro segundo terceiro"
     "quarto quinto sexto";
     column-gap: 32px;
     row-gap: 32px;
-
-}
-
-#grid > div {
     
+
 }
+
+
     
 #tenis1 {grid-area: primeiro;}
 #tenis2 {grid-area: segundo;}

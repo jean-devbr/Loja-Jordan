@@ -21,37 +21,37 @@ body {
     grid-template-areas: 
         "cabecario"
         "principal";
+    row-gap: 40px;
    
 }
 header {grid-area: cabecario;}
 main {grid-area: principal;}
 
-header {
-    
-    position: relative;
-    overflow: hidden;
-    height: 400px;
-   
-}
 
 #frete {
     padding: 10px;
     text-align: center;
 }
 #fotoMaiorJordan {
-    width: 100%;
-   
-    position: relative;
     
+    background-image: url("../img/image-michael-jordan.png");
+    height: 400px;
+    width: 1425px;
+    overflow: hidden;  
 }
 #mensagemFoto {
-    position: relative;
-    bottom: 220px;
-    left: 250px;
+    
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
     gap: 40px;
     color: #FFFFFF;
+    height: 100%;
+    position: relative;
+    left: 20%;
+    width: 328px;
+    
+    
 }
 #marca {
     

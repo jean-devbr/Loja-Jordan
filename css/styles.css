@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
     margin: 0;
@@ -26,9 +27,10 @@ header {grid-area: cabecario;}
 main {grid-area: principal;}
 
 header {
+   
     position: relative;
     overflow: hidden;
-    height: auto;
+    height: 400px;
    
 }
 
@@ -69,37 +71,42 @@ header {
     letter-spacing: 0;
 }
         /*Main*/
-#conteudo {
-    display: grid;
-    grid-template-rows: 90px auto;
-    padding: 80px 0;
-    gap: 72px;
-    
-}
+
 main {
     display: flex;
     justify-content: center;
+    display: grid;
+    grid-template-rows: 90px auto;
+    row-gap: 72px;
+    
+    
+}
+#conteudo {
+    
 }
 
+
 #conteudo > div {
-    border: 1px solid red;
+    
+    padding: 30px;
     
     
 }
 #fraseLoja {
-    border: 1px solid red;
-    text-align: center;
+   
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
     gap: 24px;    
-    width: 593px;
-    height: 127px;
+    width: 100%;
+    height: 100%px;
 }
 
 #MelhoresLugar {
     font-weight: 600;
     font-style: bold;
     font-size: 32px;
+    
 }
 
 #fraseMarcaJordan {
@@ -114,15 +121,17 @@ main {
 
 #grid  {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 384px 384px 384px;
+    grid-template-rows: 326px 326px 326px;
     grid-template-areas: 
     "primeiro segundo terceiro"
     "quarto quinto sexto";
+    column-gap: 10px;
+    row-gap: 10px;
 
 }
 
 #grid > div {
-    border: 1px solid red; 
     
 }
     
@@ -133,3 +142,42 @@ main {
 #tenis5 {grid-area: quinto;}
 #tenis6 {grid-area: sexto;}
 
+.tenis {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+
+.imagemCatalago {
+    background-color: #F3F7FF;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.imagem-tenis {
+    width: 225px;
+    height: 135px;
+}
+.subTituloTenis {
+    width: 384px;
+    height: 23px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 130%;
+}
+.tituloTenis {
+    width: 117px;
+    height: 17px;
+    color: #7CA2F4;
+    font-style: normal;
+    font-size: 16px;
+
+}
+.preco {
+    font-family: "Space Grotesk", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+}

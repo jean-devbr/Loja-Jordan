@@ -1,6 +1,7 @@
 @media (max-width: 1024px) {
 
     #elementoPai {
+
         display: grid;
         grid-template-columns: 1024px auto;
         grid-template-rows: auto auto;
@@ -143,3 +144,6 @@
     }
 
 }
+
+}
+

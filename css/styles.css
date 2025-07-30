@@ -36,7 +36,7 @@ main {grid-area: principal;}
     
     background-image: url("../img/image-michael-jordan.png");
     height: 400px;
-    width: 1425px;
+    width: 100%;
     overflow: hidden;  
 }
 #mensagemFoto {

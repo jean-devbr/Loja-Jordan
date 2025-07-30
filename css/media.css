@@ -1,9 +1,10 @@
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     #elementoPai {
 
         display: grid;
-        grid-template-columns: 1024px auto;
+        
+        grid-template-columns: 100% auto;
         grid-template-rows: auto auto;
         grid-template-areas: 
             "cabecario"
@@ -13,9 +14,10 @@
     
     #fotoMaiorJordan {
         background-image: url("../img/tablet.png");
-        width: 100%;
+        max-width: 100%;
         height: 400px;
         background-repeat: no-repeat; 
+        background-size: cover;
     }
 
     #mensagemFoto {
@@ -53,9 +55,10 @@
 
    #fotoMaiorJordan {
         background-image: url("../img/mobile.png");
-        width: 375px;
+        width: 100%;
         height: 400px;
         background-repeat: no-repeat;
+        background-size: cover;
      
     }
 

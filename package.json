@@ -1,0 +1,16 @@
+{
+  "name": "loja-jordan",
+  "version": "1.0.0",
+  "description": "Loja de tênis Jordan - Jordan Shoes",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": ["jordan", "shoes", "sneakers", "loja"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
